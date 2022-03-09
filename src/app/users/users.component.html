@@ -1,0 +1,8 @@
+<div class="root">
+
+  <select name="user-list" id="dropdown" appDropdown>
+    <option value="0">Select a User</option>
+    <option value={{user.id}} *ngFor="let user of users">{{user.first_name}}</option>
+  </select>
+
+</div>

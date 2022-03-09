@@ -1,0 +1,32 @@
+.root {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 0.2rem;
+}
+
+.img-div {
+  border-radius: 0.2rem;
+  overflow: hidden;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.outer {
+  display: flex;
+  gap: 1rem;
+}
+
+span {
+  font-weight: 400;
+}
